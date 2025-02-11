@@ -35,13 +35,13 @@ const AchievementsAndCertifications = () => {
   ];
 
   return (
-    <section id="projects" className="bg-gray-900 text-white py-20">
+    <section id="projects" className="bg-gray-900 text-white py-20 dark:bg-gray-800 dark:text-gray-200">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold mb-8 text-center">Réalisations et Certifications</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {achievements.map((achievement, index) => (
-            <div key={index} className="bg-gray-800 rounded-lg p-6 flex flex-col items-center justify-center">
-              <img src={achievement.image} alt={achievement.title} className="w-full mb-4" />
+            <div key={index} className="bg-gray-800 dark:bg-gray-700 rounded-lg p-6 flex flex-col items-center justify-center shadow-md transition-transform transform hover:scale-105">
+              <img src={achievement.image} alt={achievement.title} className="w-full mb-4 rounded-lg shadow-md" />
               <h3 className="text-xl font-bold mb-2">{achievement.title}</h3>
               <p className="text-center">{achievement.description}</p>
             </div>
