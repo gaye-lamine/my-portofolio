@@ -61,6 +61,22 @@ const EducationSection = () => {
                         <p className="text-gray-300 mb-2">2019 - 2022</p>
                     </motion.div>
 
+                    <motion.div
+                        className="card h-64 bg-gray-800 rounded-lg shadow-md p-6"
+                        whileHover={{
+                            scale: 1.1,
+                            transition: { duration: 0.5 }
+                        }}
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        transition={{ delay: 0.5 }}
+                    >
+                        <h3 className="text-xl font-semibold mb-2">Freecodecamp</h3>
+                        <p className="text-gray-300 mb-2">JavaScript Algorithms and Data Structures</p>
+                        <p className="text-gray-300 mb-2">2024 - 2025</p>
+                    </motion.div>
+
+
                     {/* Université Cheikh Anta Diop de Dakar */}
                     <motion.div
                         className="card h-64 bg-gray-800 rounded-lg shadow-md p-6"

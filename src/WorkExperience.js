@@ -8,6 +8,12 @@ const WorkExperience = () => {
     
     const experienceData = [
         {
+            company: "1-more-thing",
+            role: "Développeur web/flutter",
+            description: "Gestion de la partie UX/UI, intégration des APIs, flutterFlow, vue.js 3 , Nuxt 3 , supabase.",
+            date: "2024 - aujourd'hui"
+        },
+        {
             company: "Proxalys",
             role: "Développeur mobile Flutter",
             description: "Travail sur la partie UX/UI et intégration des APIs.",
@@ -30,7 +36,8 @@ const WorkExperience = () => {
             role: "Contributeur Open Source",
             description: "Participation active au Hacktoberfest sur GitHub.",
             date: "2023 - 2024"
-        }
+        },
+        
     ];
 
     return (

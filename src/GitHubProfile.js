@@ -8,12 +8,12 @@ const GitHubProfile = () => {
         <p className="text-center">
           Pour découvrir mes projets et contributions, consultez mon profil GitHub :
           <a
-            href="https://github.com/abda-gaye"
+            href="https://github.com/gaye-lamine"
             className="block mt-4 text-blue-500 underline hover:text-blue-400 text-center"
             target="_blank"
             rel="noopener noreferrer"
           >
-            github.com/abda-gaye
+            Voici mon profil GitHub
           </a>
         </p>
       </div>

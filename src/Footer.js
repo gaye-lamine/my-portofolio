@@ -6,10 +6,10 @@ const Footer = () => {
     <footer className="bg-gray-900 text-white py-8 px-4">
       <div className="container mx-auto flex justify-between items-center">
         <div>
-          <p>© 2024 Lamine Gaye. Tous droits réservés.</p>
+          <p>© 2025 Lamine Gaye. Tous droits réservés.</p>
         </div>
         <div className="flex space-x-4">
-          <a href="https://github.com/abda-gaye" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-300 transition duration-300">
+          <a href="https://github.com/gaye-lamine" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-300 transition duration-300">
             <FaGithub size={24} />
           </a>
           <a href="https://twitter.com/LamineG18940939" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-300 transition duration-300">
